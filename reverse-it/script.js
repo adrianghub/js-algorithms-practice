@@ -3,8 +3,7 @@ const result = document.querySelector('.result');
 
 function reverseHandler(input) {
  
-      const lowInput = input.toLowerCase();
-      const reverseString = lowInput.split('').reverse().join('');
+      const reverseString = input.split('').reverse().join('');
       return result.innerHTML = reverseString;
   
     }
