@@ -1,4 +1,5 @@
 const input = document.querySelector('.result__input');
+const result = document.querySelector('.result'); 
 
 function reverseMe(input) {
 
@@ -16,17 +17,8 @@ function reverseMe(input) {
    
   }
 
-  /* Weryfikacja */
+document.forms[0].addEventListener('submit', (e) => {
+  e.preventDefault();
 
-function verify(input, goal) {
-  if (input === goal) {
-    console.log('Gratulacje!');
-  } else {
-    console.log(`Niestety, oczekiwano - ${goal}, otrzymano - ${input}`);
-  }
-}
-
-verify(reverseMe('a'), 'a');
-verify(reverseMe('abc'), 'cba');
-verify(reverseMe('Przeprogramowani'), 'inawomargorpezrP');
-verify(reverseMe('Brawo!'), '!owarB');
+  reverseMe(input.value);
+})
