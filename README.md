@@ -11,4 +11,4 @@
 > Przykład:
 `reverseHandler('abc') // => 'cba'`;
 
-![Przykład działania sktyptu na stronie](/github/reverse.png)
+![Przykład działania sktyptu na stronie](/github/reverse.PNG)
