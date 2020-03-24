@@ -9,8 +9,4 @@
 ---
 
 > Przykład:
-`reverseMe('abc') // => 'cba'`
-
-### Punkty dodatkowe
-
-> Funkcja powinna weryfikować, czy przekazany parametr jest typu string. Jeśli parametr nie spełnia tego warunku, funkcja powinna rzucić wyjątek.
+`reverseHandler('abc') // => 'cba'`;
