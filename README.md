@@ -81,5 +81,6 @@
 > Przykład:
 `applyPredicate([1, 2, 3], element => element > 2) // => [3]`
 `applyPredicate(['a', 'b', 'c'], element => ['b', 'c'].includes(element)) // => ['b', 'c']` 
+
 > Weryfikacja jest na ten moment dostępna z poziomu konsoli w DevTools 
 
