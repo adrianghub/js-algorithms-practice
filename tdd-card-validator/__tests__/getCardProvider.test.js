@@ -40,8 +40,6 @@ test('should mark number as incorrect', () => {
 test('should throw if provider cannot be recognized', () => {
     // given
     const cardNumber = 3566002020360505
-   // when 
-   const result = getCardProvider(cardNumber)
    // then
    expect(() => {
        getCardProvider(cardNumber)
